@@ -35,7 +35,13 @@ $movie_2 = new Movie('Mixed by Erry', 'Drammatico/Commedia', 'ITA', 'Negli anni 
         <li>Genere: <?php echo $movie_1->genere ?></li>
         <li>Lingua: <?php echo $movie_1->lingua ?></li>
         <li>Trama: <?php echo $movie_1->trama ?></li>
-
+    </ul>
+    <h4>Movie 2</h4>
+    <ul>
+        <li>Titolo: <?php echo $movie_2->titolo ?></li>
+        <li>Genere: <?php echo $movie_2->genere ?></li>
+        <li>Lingua: <?php echo $movie_2->lingua ?></li>
+        <li>Trama: <?php echo $movie_2->trama ?></li>
     </ul>
 </body>
 </html>
